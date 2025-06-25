@@ -8,6 +8,24 @@ platform "amd64" {
   }
 }
 
+platform "arm64" {
+  vars = {
+    "arch_": "arm64",
+  }
+}
+
+platform "armv6" {
+  vars = {
+    "arch_": "armv6",
+  }
+}
+
+platform "386" {
+  vars = {
+    "arch_": "32-bit",
+  }
+}
+
 platform "linux" {
   vars = {
     "os_": "Linux",
